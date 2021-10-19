@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(Images/6MmseN.jpg);
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+
+}
+
+.bgimg{
+    width:100%;
+    height: auto;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+/*^^^^^^^^^^^^^Global^^^^^^^^^^^^^^*/
+
+
+.h1{
+    width: 120px;
+    cursor: pointer;
+}
+
+.n1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.fa-sign-in{
+    margin-left: 5px;
+    align-items: center;
+}
+
+.navli{
+    list-style: none;
+    margin: 10px 30px;
+    display:inline-block;
+    right: 0%;
+}
+
+.navli a{
+    color:whitesmoke;
+    text-decoration: none;
+    position: relative;
+}
+
+.navli a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: whitesmoke;
+    transition: width 0.3s;
+}
+
+.navli a:hover::after{
+    width: 50%;
+}
+
+.t1{
+    color:whitesmoke;
+    position: absolute;
+    bottom: 8%;
+}
+
+.t1 h2{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+}
+
+.t1 h3{
+    font-size: 40px;
+    font-weight: 500px;
+    margin-left: 5px
+}
+
+.subtxt{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.subtxt a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.fa-arrow-right{
+    margin-left: 7px;
+}
+
+.logo{
+    color:whitesmoke;
+}
+
+/* need to figure out how to get it to not select the whole col
+.logo::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: whitesmoke;
+    transition: width 0.3s;
+}
+
+.logo:hover::after{
+    width: 50%;
+}
+*/
+
+.indexbtn:hover{
+    transform: translateY(-3.5px);
+    box-shadow: 0 10px 20px #00000042;
+}
+
+.indexbtn:active{
+    transform: translateY(-0.5px);
+    box-shadow: 0 5px 10px #00000033;
+}
+
+.navli2{
+    list-style: none;
+}
+
+.dropdown-toggle{
+    background: none;
+    border:none;
+}
+
+.dropdown-menu{
+    right: 0px;
+    left: auto;
+}
+
+
+#natalie{
+    margin-left: -26px;
+}
+
+#signinButton{
+    color:whitesmoke
+}
+
+#connectButton{
+    cursor: pointer;
+}
