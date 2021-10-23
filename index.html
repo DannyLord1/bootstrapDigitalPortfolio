@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body id="bodyIndex">
     <header>
         <div class="row">
             <nav class="n1">
@@ -40,7 +40,7 @@
                     <div class="collapse navbar-collapse">
                         <ul>
                             <li class="navli"><a href="looks.html">looks</a></li>
-                            <li class="navli"><a href="about.html">about</a></li>
+                            <li class="navli abtLink"><a href="about.html">about</a></li>
                             <li class="navli">
                                 <a role="button" id="signinButton">
                                     sign in<i class="fa fa-sign-in"></i>
@@ -56,9 +56,10 @@
                             <img src="resources/wdown.svg">
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="nucampNavbar">
+                            <a class="navli2 dropdown-item active" href="index.html">home</a>
                             <a class="navli2 dropdown-item" href="looks.html">looks</a>
                             <a class="navli2 dropdown-item" href="about.html">about</a>
-                            <a class="navli2 dropdown-item" href="">
+                            <a class="navli2 dropdown-item" id="signinDDown">
                                 sign in<i class="fa fa-sign-in "></i>
                             </a>
                         </div>
@@ -115,7 +116,7 @@
         </div>
         <h3>crafted aesthetics</h3>
         <div class="subtxt">
-            <a class="indexbtn" href="">portfolio<i class="fa fa-arrow-right"></i></a>
+            <a class="indexbtn" href="looks.html">portfolio<i class="fa fa-arrow-right"></i></a>
             <a class="indexbtn" id="connectButton">connect<i class="fa fa-arrow-right"></i></a>
         </div>
     </div>
@@ -125,12 +126,12 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div class="col-5">
-                        <h3 class="modal-title">Contact Me</h3>
+                    <div class="col-6">
+                        <h3 class="modal-title cModalH">Contact Me</h3>
                     </div>
-                    <a class="iconlink" href=""><i class="fa fa-instagram"></i></a>
-                    <a class="iconlink" href=""><i class="fa fa-envelope"></i></a>
-                    <a class="iconlink" href=""><i class="fa fa-phone"></i></a>
+                    <a class="iconLink" href=""><i class="fa fa-instagram fa-3x"></i></a>
+                    <a class="iconLink" href=""><i class="fa fa-envelope fa-3x"></i></a>
+                    <a class="iconLink" href=""><i class="fa fa-phone fa-3x"></i></a>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
